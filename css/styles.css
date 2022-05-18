@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Gt';
+  src: url('../../../Desktop/eikon/fonts/vintage/GtWalsheim/GTWalsheimPro-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gt';
+  src: url('../../../Desktop/eikon/fonts/vintage/GtWalsheim/GTWalsheimPro-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
 
 html {
   scroll-behavior: smooth;
@@ -6,13 +19,15 @@ html {
 
 body {
   width: 100%;
-  max-width: 380px;
+  max-width: 375px;
   margin: auto;
   display: block;
+  text-align: center;
 }
 
 .homepage-amber {
   background-image: url(../img/background/homepage.svg);
+  height: 375%;
 }
 
 .fifties-page {
@@ -26,3 +41,40 @@ body {
 .seventies-page {
   background-image: url(../img/background/seventies.svg);
 }
+
+.homepage img{
+  height: 45px;
+}
+
+header .homepage {
+  display: flex;
+  padding-top: 10px; 
+}
+
+header .logo {
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+header .music-button {
+  padding-left: 215px;
+}
+
+header .slogan-homepage {
+  align-content: center;
+  height: 273%;
+  margin-top: 88px;
+}
+
+header p {
+  font-weight: 500;
+  font-family: 'Gt';
+  font-size: 18px;
+  margin: 50px 30px 10px;
+  padding: 20px 30px;
+  text-align: justify;
+  background-color: #efe4da;
+  box-shadow: 5px 7px 18px -3px rgba(0,0,0,0.3);
+  border-radius: 20px;
+}
+
