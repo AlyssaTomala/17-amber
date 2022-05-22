@@ -22,9 +22,12 @@ body {
   margin: auto;
   display: block;
   text-align: center;
-  background-color: #eedec98e;
+  box-shadow: 2px 5px 18px -3px rgba(0,0,0,0.2);
 }
 
+.homepage-amber {
+  background-color: #eedec98e;
+}
 
 .fifties-page {
   background-image: url(../img/background/fifties.svg);
@@ -35,7 +38,7 @@ body {
 }
 
 .seventies-page {
-  background-image: url(../img/background/seventies.svg);
+  background-color: #eedec9;
 }
 
 .homepage img{
@@ -143,11 +146,14 @@ main h1 {
 }
 
 main .background {
-  background-color: #dfd0bd;
   box-shadow: 5px 7px 18px -3px rgba(0,0,0,0.3);
   margin: 0 10px ;
   padding: 1px;
   border-radius: 40px;
+}
+
+.background-homepage {
+  background-color: #dfd0bd;
 }
 
 main p {
@@ -170,10 +176,108 @@ main p {
    height: 214px;
    margin-top: 60px;
  }
+
 footer h2{
   font-weight: 700;
   font-family: 'Gt';
   font-size: 38px;
   text-align: left;
   padding: 30px 0 0 30px;
+}
+
+header .logo-seventies {
+  padding: 10px 90px;
+}
+
+main .button-phrase {
+  padding-left: 5px;
+}
+
+main .button {
+  height: 90px;
+}
+
+.showcase-product {
+  border-radius: 40px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 5px 7px 18px -3px rgba(0,0,0,0.3);
+}
+
+.showcase-seventies {
+  background-color: #48565e;
+}
+
+main .box {
+  height: 450px;
+  padding: 20px 20px 50px 15px;
+}
+
+.explication-product p {
+  font-weight: 500;
+  font-family: 'Gt';
+  font-size: 26px;
+  text-align: justify;
+  padding: 35px;
+  margin: 50px 10px 90px
+}
+
+.explication-seventies p {
+  background-color: #313c40;
+  color: #eedec9;
+} 
+
+.sell-product h3 {
+  font-weight: 700;
+  font-family: 'Gt';
+  font-size: 45px;
+  box-shadow: 5px 7px 18px -3px rgba(0,0,0,0.3);
+  border-radius: 30px;
+  margin: 1px 4px ;
+  padding: 10px;
+}
+
+.sell-seventies h3 {
+  background-color: #313c40;
+  color: #eedec9;
+} 
+
+.background-seventies {
+  background-color: #eedec9;
+}
+
+.background-products {
+  box-shadow: 5px 7px 18px -3px rgba(0,0,0,0.3);
+  margin: 0 10px ;
+  padding: 5px;
+  border-radius: 35px;
+}
+
+.seventies-more-info {
+  background-color: #313c40;
+  color: #eedec9;
+}
+
+.more-info {
+  margin-top: 20px;
+}
+
+main {
+  background-image: url(../img/background/background_seventies.svg);
+}
+
+footer .contact-seventies {
+  background-image: url(../img/footer/box_footer_seventies.svg);
+  height: 214px;
+  margin-top: 60px;
+}
+
+.contact h2 {
+  color: #efe4da;
+}
+
+.homepage h2 {
+  color: black;
 }
