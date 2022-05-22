@@ -30,15 +30,27 @@ body {
 }
 
 .fifties-page {
-  background-image: url(../img/background/fifties.svg);
+  background-color: #e6cb99;
 }
 
 .sixties-page {
-  background-image: url(../img/background/sixties.svg);
+  background-color: #f7c346;
 }
 
 .seventies-page {
   background-color: #eedec9;
+}
+
+.product-fifties {
+  background-image: url(../img/background/background_fifties.svg);
+}
+
+.product-sixties {
+  background-image: url(../img/background/background_sixties.svg);
+}
+
+.product-seventies {
+  background-image: url(../img/background/background_seventies.svg);
 }
 
 .homepage img{
@@ -171,12 +183,6 @@ main p {
    margin-top: 30px;
  }
 
- footer .homepage {
-   background-image: url(../img/footer/box_footer.svg);
-   height: 214px;
-   margin-top: 60px;
- }
-
 footer h2{
   font-weight: 700;
   font-family: 'Gt';
@@ -185,7 +191,7 @@ footer h2{
   padding: 30px 0 0 30px;
 }
 
-header .logo-seventies {
+header .logo {
   padding: 10px 90px;
 }
 
@@ -206,6 +212,14 @@ main .button {
   box-shadow: 5px 7px 18px -3px rgba(0,0,0,0.3);
 }
 
+.showcase-fifties {
+  background-color: #5a5f82;
+}
+
+.showcase-sixties {
+  background-color: #7e5371;
+}
+
 .showcase-seventies {
   background-color: #48565e;
 }
@@ -224,10 +238,9 @@ main .box {
   margin: 50px 10px 90px
 }
 
-.explication-seventies p {
-  background-color: #313c40;
+.explication-product {
   color: #eedec9;
-} 
+}
 
 .sell-product h3 {
   font-weight: 700;
@@ -237,11 +250,25 @@ main .box {
   border-radius: 30px;
   margin: 1px 4px ;
   padding: 10px;
+  color: #eedec9;
 }
 
-.sell-seventies h3 {
+.sell-fifties h3,
+.fifties-more-info,
+.explication-fifties p {
+  background-color: #3b405a;
+} 
+
+.sell-sixties h3,
+.sixties-more-info,
+.explication-sixties p {
+  background-color: #6d4860;
+} 
+
+.sell-seventies h3,
+.seventies-more-info,
+.explication-seventies p {
   background-color: #313c40;
-  color: #eedec9;
 } 
 
 .background-seventies {
@@ -255,21 +282,34 @@ main .box {
   border-radius: 35px;
 }
 
-.seventies-more-info {
-  background-color: #313c40;
+.more-info {
+  margin-top: 20px;
   color: #eedec9;
 }
 
-.more-info {
-  margin-top: 20px;
+footer .contact-fifties {
+  background-image: url(../img/footer/box_footer_fifties.svg);
+  height: 214px;
+  margin-top: 60px;
 }
 
-main {
-  background-image: url(../img/background/background_seventies.svg);
+footer .contact-sixties {
+  background-image: url(../img/footer/box_footer_sixties.svg);
+  height: 214px;
+  margin-top: 60px;
 }
 
 footer .contact-seventies {
   background-image: url(../img/footer/box_footer_seventies.svg);
+  height: 214px;
+  margin-top: 60px;
+}
+
+footer .homepage {
+  background-image: url(../img/footer/box_footer.svg);
+}
+
+.contact {
   height: 214px;
   margin-top: 60px;
 }
