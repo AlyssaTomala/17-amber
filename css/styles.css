@@ -24,30 +24,6 @@ body {
   margin: auto;
 }
 
-.fifties-page {
-  background-color: #e6cb99;
-}
-
-.sixties-page {
-  background-color: #f7c346;
-}
-
-.seventies-page {
-  background-color: #eedec9;
-}
-
-.product-fifties {
-  background-image: url(../img/background/background_fifties.svg);
-}
-
-.product-sixties {
-  background-image: url(../img/background/background_sixties.svg);
-}
-
-.product-seventies {
-  background-image: url(../img/background/background_seventies.svg);
-}
-
 .homepage img,
 .top-info img{
   height: 45px;
@@ -148,31 +124,14 @@ main .seventies-button {
   margin-bottom: 50px;
 }
 
-main h1 {
+h1 {
   font-weight: 700;
   font-family: 'Gt';
-  font-size: 50px;
+  font-size: 32px;
+  text-align: justify;
   text-shadow: 2px 2px 5px rgba(150, 150, 150, 0.92);
-  background-color: white;
-  -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  margin: 5px;
-  padding: 10px 20px;
-  border-radius: 35px;
-}
-
-main .background {
-  -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  margin: 0 10px ;
-  padding: 1px;
-  border-radius: 40px;
-}
-
-.background-homepage {
-  border: 1px solid black;
+  padding: 20px 20px 5px;
+  margin: 20px 0 5px;
 }
 
 main a p {
