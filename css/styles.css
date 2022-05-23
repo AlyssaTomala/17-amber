@@ -145,7 +145,6 @@ main a p {
   box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
   margin: 15px 10px 10px;
   padding: 15px;
-  border-radius: 30px;
   color: black;
  }
 
@@ -153,17 +152,60 @@ main a p {
    margin-top: 30px;
  }
 
-footer h2{
+footer h2,
+h4 {
   font-weight: 700;
   font-family: 'Gt';
   font-size: 38px;
-  text-align: left;
+  text-align: justify;
+}
+
+footer .h2 {
   padding: 30px 0 0 30px;
   margin-bottom: 15px;
 }
 
-.slogan {
-  margin: 20px 0 50px;
+h4 {
+  margin: 30px 0 20px 15px;
+  text-shadow: 2px 2px 5px rgba(150, 150, 150, 0.9);
+}
+
+.buy-seventies {
+  color: #313c40;
+}
+
+.buy-sixties {
+  color: #89371a;
+}
+
+.buy-fifties {
+  color: #3b405a;
+}
+
+h3 {
+  color: white;
+  font-weight: 700;
+  font-family: 'Gt';
+  font-size: 45px;
+  text-align: justify;
+  -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
+  -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
+  box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
+  border-radius: 40px;
+  margin: 15px;
+  padding: 10px 22px;
+}
+
+.shop-seventies {
+  background-color: #313c40;
+}
+
+.shop-sixties {
+  background-color: #89371a;
+}
+
+.shop-fifties {
+  background-color: #3b405a;
 }
 
 .showcase-product {
@@ -177,14 +219,17 @@ footer h2{
   box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
 }
 
+.sell-fifties,
 .showcase-fifties {
   background-color: #5a5f82;
 }
 
+.sell-sixties,
 .showcase-sixties {
-  background-color: #7e5371;
+  background-color: #ba4927;
 }
 
+.sell-seventies,
 .showcase-seventies {
   background-color: #48565e;
 }
@@ -194,50 +239,58 @@ main .box {
   padding: 20px 20px 40px 5px;
 }
 
+h4 {
+  font-weight: 700;
+  font-family: 'Gt';
+  font-size: 38px;
+}
+
 .explication-product p {
   font-weight: 500;
   font-family: 'Gt';
-  font-size: 26px;
+  font-size: 20px;
   text-align: justify;
-  padding: 20px 25px 30px;
-  margin: 50px 10px 55px;
+  padding: 5px 15px 30px;
+  margin: 25px 5px 20px;
+  color: black;
+}
+
+hr {
+  border: 1px solid black;
+  margin: 5px 0 20px;
+}
+
+.sell-product {
   border-radius: 30px;
-}
-
-.explication-product {
-  color: #eedec9;
-}
-
-.sell-product h3 {
-  font-weight: 700;
-  font-family: 'Gt';
-  font-size: 45px;
   -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
   -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
   box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  border-radius: 30px;
-  margin: 1px 4px ;
-  padding: 10px;
-  color: #eedec9;
+  margin: 10px;
 }
 
-.sell-fifties h3,
-.fifties-more-info,
-.explication-fifties p,
+.sell-product h5 {
+  color: white;
+  font-weight: 700;
+  font-family: 'Gt';
+  font-size: 70px;
+  margin: 30px;
+}
+
+
+.sell-container {
+  display: flex;
+  justify-content: center;
+}
+
+
 .scroll-top-fifties {
   background-color: #3b405a;
 } 
 
-.sell-sixties h3,
-.sixties-more-info,
-.explication-sixties p,
 .scroll-top-sixties {
-  background-color: #6d4860;
+  background-color: #89371a
 } 
 
-.sell-seventies h3,
-.seventies-more-info,
-.explication-seventies p,
 .scroll-top-seventies {
   background-color: #313c40;
 } 
@@ -247,7 +300,7 @@ main .box {
 }
 
 .background-sixties {
-  border: 1px solid #6d4860;
+  border: 1px solid #89371a;
 }
 
 .background-seventies {
@@ -308,6 +361,12 @@ footer .homepage {
   color: black;
 }
 
+.scroller {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+}
+
 .scroll-top-button {
   display: block;
   width: 50px;
@@ -342,11 +401,6 @@ a  {
   text-decoration: none;
 }
 
-.contact-scroll-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
 .contact-container {
   display: flex;
