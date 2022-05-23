@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Gt';
-  src: url('../../../Desktop/eikon/fonts/vintage/GtWalsheim/GTWalsheimPro-Medium.woff2') format('woff2');
+  src: url('../fonts/GTWalsheimPro-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gt';
-  src: url('../../../Desktop/eikon/fonts/vintage/GtWalsheim/GTWalsheimPro-Bold.woff2') format('woff2');
+  src: url('../fonts/GTWalsheimPro-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
@@ -49,67 +49,21 @@ main .number-product  {
   height: 90px;
 }
 
+p {
+  color: #3c3c3b;
+}
+
 header p {
   font-weight: 500;
   font-family: 'Gt';
-  font-size: 18px;
+  font-size: 20px;
   margin: 0 10px 10px;
   padding: 0 10px 20px;
   text-align: justify;
 }
 
-main .product-button {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15px 10px;
-  -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.1);
-  -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.1);
-  box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.1);
-  border-radius: 30px;
-}
-
 main .character {
   height: 145px;
-}
-
-main .fifties-button .character {
-  margin-left: 30px;
-}
-
-main .fifties-button .number-product{
-  margin-left: 25px;
-}
-
-main .sixties-button .number-product{
-  order: 1;
-  margin-right: 45px;
-}
-
-main .sixties-button .character {
-  margin-right: 25px;
-}
-
-main .seventies-button .character {
-  margin-left: 20px;
-}
-
-main .seventies-button .number-product{
-  margin-left: 25px;
-}
-
-main .fifties-button {
-  border: 1px solid #e87c66;
-}
-
-main .sixties-button {
-  border: 1px solid #ba4927;
-}
-
-main .seventies-button {
-  border: 1px solid #323c40;
-  margin-bottom: 50px;
 }
 
 h1 {
@@ -119,23 +73,42 @@ h1 {
   text-align: justify;
   text-shadow: 2px 2px 5px rgba(150, 150, 150, 0.92);
   padding: 20px 20px 5px;
-  margin: 50px 0 5px;
+  margin: 25px 0 5px;
 }
 
-main a p {
-  font-weight: 700;
+.all-products-container p {
+  font-weight: 500;
   font-family: 'Gt';
-  font-size: 33px;
+  font-size: 14px;
   text-align: justify;
-  background-color: white;
-  -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  margin: 20px 5px 20px 15px;
-  padding: 20px 5px 20px 30px;
-  border-radius: 40px;
-  color: black;
- }
+  margin: 0 20px 0 10px;
+}
+
+.all-products-container h1 {
+  margin: 5px;
+  padding: 5px;
+}
+
+.all-products-container img {
+  padding-left: 14px;
+}
+
+.all-products-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.fifties-product,
+.sixties-product,
+.seventies-product {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-button {
+  display: flex;
+  flex-direction: column;
+}
 
 footer h2,
 h4 {
@@ -202,7 +175,7 @@ h3 {
   -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
   -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
   box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  margin-top: 60px;
+  margin-top: 130px;
 }
 
 .sell-fifties,
@@ -243,7 +216,7 @@ h4 {
 
 hr {
   border: 1px solid black;
-  margin: 5px 0 20px;
+  margin: 30px 0 20px;
 }
 
 .sell-product {
