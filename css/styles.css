@@ -22,6 +22,7 @@ body {
   display: block;
   text-align: center;
   margin: auto;
+  background-color: #f6f6f6;
 }
 
 .top-info img{
@@ -49,7 +50,8 @@ main .number-product  {
   height: 90px;
 }
 
-p {
+p,
+a p {
   color: #3c3c3b;
 }
 
@@ -103,6 +105,7 @@ h1 {
 .seventies-product {
   display: flex;
   flex-direction: row;
+  padding: 10px 0;
 }
 
 .text-button {
@@ -110,17 +113,45 @@ h1 {
   flex-direction: column;
 }
 
-footer h2,
-h4 {
+.resellers-container img {
+  height: 50px;
+  background-color: #f6f6f6;
+  -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
+  -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
+  box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.resellers-container p {
   font-weight: 700;
   font-family: 'Gt';
-  font-size: 38px;
+  font-size: 15px;
+  margin: 2px;
   text-align: justify;
 }
 
-footer .h2 {
-  padding: 30px 0 0 30px;
-  margin-bottom: 15px;
+.resellers-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+footer {
+  padding-top: 20px;
+  }
+
+.contact {
+  margin-top: 30px;
+  background-color: black;
+  border-radius: 20px;
+  margin: 15px;
+}
+
+footer img {
+  height: 40px;
+  margin: 15px 30px;
 }
 
 h4 {
@@ -264,39 +295,6 @@ hr {
   border: 1px solid #313c40;
 }
 
-.background-products {
-  -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  margin: 0 10px ;
-  padding: 5px;
-  border-radius: 35px;
-}
-
-footer {
-  background-repeat: no-repeat;
-}
-
-footer .contact-fifties {
-  background-image: url(../img/footer/box_fifties.svg);
-}
-
-footer .contact-sixties {
-  background-image: url(../img/footer/box_sixties.svg);
-}
-
-footer .contact-seventies {
-  background-image: url(../img/footer/box_seventies.svg);
-}
-
-footer .homepage {
-  background-image: url(../img/footer/box_homepage.svg);
-}
-
-.contact {
-  margin-top: 30px;
-}
-
 .scroller {
   display: flex;
   justify-content: center;
@@ -320,11 +318,6 @@ footer .homepage {
 
 a  {
   text-decoration: none;
-}
-
-footer img {
-  height: 65px;
-  margin: 45px 20px;
 }
 
 .contact-container {
