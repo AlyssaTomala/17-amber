@@ -24,7 +24,6 @@ body {
   margin: auto;
 }
 
-.homepage img,
 .top-info img{
   height: 45px;
 }
@@ -35,11 +34,9 @@ header .homepage,
   padding-top: 10px; 
 }
 
-header .logo,
 .top-info .logo {
   justify-content: flex-start;
   margin-left: 10px;
-  padding-top: 10px;
 }
 
 header .music-button,
@@ -47,21 +44,16 @@ header .music-button,
   padding-left: 215px;
 }
 
-main .button {
+main .button,
+main .number-product  {
   height: 90px;
-}
-
-header .slogan-homepage {
-  align-content: center;
-  height: 273%;
-  margin-top: 40px;
 }
 
 header p {
   font-weight: 500;
   font-family: 'Gt';
   font-size: 18px;
-  margin: 0 10px 40px;
+  margin: 0 10px 10px;
   padding: 0 10px 20px;
   text-align: justify;
 }
@@ -76,10 +68,6 @@ main .product-button {
   -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.1);
   box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.1);
   border-radius: 30px;
-}
-
-main .number-product {
-  height: 90px;
 }
 
 main .character {
@@ -131,25 +119,22 @@ h1 {
   text-align: justify;
   text-shadow: 2px 2px 5px rgba(150, 150, 150, 0.92);
   padding: 20px 20px 5px;
-  margin: 20px 0 5px;
+  margin: 50px 0 5px;
 }
 
 main a p {
   font-weight: 700;
   font-family: 'Gt';
-  font-size: 38px;
-  text-align: center;
+  font-size: 33px;
+  text-align: justify;
   background-color: white;
   -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
   -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
   box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  margin: 15px 10px 10px;
-  padding: 15px;
+  margin: 20px 5px 20px 15px;
+  padding: 20px 5px 20px 30px;
+  border-radius: 40px;
   color: black;
- }
-
- main .first-source {
-   margin-top: 30px;
  }
 
 footer h2,
@@ -217,6 +202,7 @@ h3 {
   -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
   -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
   box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
+  margin-top: 60px;
 }
 
 .sell-fifties,
@@ -276,12 +262,10 @@ hr {
   margin: 30px;
 }
 
-
 .sell-container {
   display: flex;
   justify-content: center;
 }
-
 
 .scroll-top-fifties {
   background-color: #3b405a;
@@ -316,49 +300,28 @@ hr {
   border-radius: 35px;
 }
 
-.more-info {
-  margin-top: 20px;
-  color: #eedec9;
-  padding: 10px;
-  border-radius: 35px;
-  font-weight: 700;
-  font-family: 'Gt';
-  font-size: 37px;
-  margin: 25px 10px;
-  padding: 15px;
-  -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
-  box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.12);
+footer {
+  background-repeat: no-repeat;
 }
 
-
 footer .contact-fifties {
-  background-image: url(../img/footer/box_footer_fifties.svg);
+  background-image: url(../img/footer/box_fifties.svg);
 }
 
 footer .contact-sixties {
-  background-image: url(../img/footer/box_footer_sixties.svg);
+  background-image: url(../img/footer/box_sixties.svg);
 }
 
 footer .contact-seventies {
-  background-image: url(../img/footer/box_footer_seventies.svg);
+  background-image: url(../img/footer/box_seventies.svg);
 }
 
 footer .homepage {
-  background-image: url(../img/footer/box_footer.svg);
+  background-image: url(../img/footer/box_homepage.svg);
 }
 
 .contact {
-  height: 214px;
-  margin-top: 60px;
-}
-
-.contact h2 {
-  color: #efe4da;
-}
-
-.homepage h2 {
-  color: black;
+  margin-top: 30px;
 }
 
 .scroller {
@@ -382,28 +345,16 @@ footer .homepage {
   margin: 60px 15px 0 0;
 }
 
-a p {
-  font-weight: 500;
-  font-family: 'Gt';
-  font-size: 20px;
-  text-shadow: 5px 7px 18px -3px rgba(0,0,0,0.2);
-  color: #efe4da;
-  text-align: justify;
-  padding-left: 30px;
-  margin: 6px 0;
-}
-
-.contact-homepage p{ 
-  color: black;
-}
-
 a  {
   text-decoration: none;
 }
 
+footer img {
+  height: 65px;
+  margin: 45px 20px;
+}
 
 .contact-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
-
