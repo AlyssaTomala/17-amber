@@ -173,6 +173,18 @@ h3 {
   padding: 10px 0;
 }
 
+.fifties-product h1 {
+  color: #3c4b6f;
+}
+
+.sixties-product h1 {
+  color: #773b59;
+}
+
+.seventies-product h1 {
+  color: #25424a;
+}
+
 .text-button {
   display: flex;
   flex-direction: column;
@@ -231,6 +243,18 @@ footer img {
   margin: 15px 30px;
 }
 
+.go-to-Digitec p{
+  color: #312783;
+}
+
+.go-to-Fnac p{
+  color: #f39200;
+}
+
+.go-to-Microspot p{
+  color: #008d36;
+}
+
 .showcase-product {
   border-radius: 40px;
   margin: 10px;
@@ -271,15 +295,15 @@ hr {
 }
 
 .scroll-top-fifties {
-  background-color: #e87c66;
+  background-color: #3b405ad4;
 } 
 
 .scroll-top-sixties {
-  background-color: #f7c346;
+  background-color: #89381ace;
 } 
 
 .scroll-top-seventies {
-  background-color: #67493a;
+  background-color: #313c40be;
 } 
 
 .scroller {
@@ -309,3 +333,4 @@ a  {
   display: flex;
   flex-direction: row;
 }
+
